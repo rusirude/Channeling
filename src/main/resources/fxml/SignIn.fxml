@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="330.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.leaf.channeling.controller.SignInController">
+   <children>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="330.0" style="-fx-background-color: WHITE;">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="281.0" stroke="#5935ce" strokeType="INSIDE" strokeWidth="0.0" width="330.0">
+               <fill>
+                  <LinearGradient endX="0.2571428571428571" endY="0.05238095238095242" startY="0.9714285714285714">
+                     <stops>
+                        <Stop color="#5935ce" />
+                        <Stop color="#5935ce" offset="0.45593869731800757" />
+                        <Stop color="WHITE" offset="0.45977011494252873" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Rectangle>
+            <Circle fill="WHITE" layoutX="165.0" layoutY="176.0" radius="83.0" stroke="#5934cf" strokeWidth="10.0" />
+            <ImageView fitHeight="102.0" fitWidth="100.0" layoutX="115.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/icons8_Hospital_3_96px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="43.0" layoutY="23.0" text="Channeling" textFill="#5934cf">
+               <font>
+                  <Font name="Serif Regular" size="53.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Pane layoutY="271.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="230.0" prefWidth="330.0" style="-fx-background-color: #5934CF;">
+         <children>
+            <Label layoutX="38.0" layoutY="21.0" prefHeight="46.0" prefWidth="126.0" text="Sign In" textFill="WHITE">
+               <font>
+                  <Font name="Calibri Bold" size="31.0" />
+               </font>
+            </Label>
+            <Button layoutX="36.0" layoutY="175.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #5934CF; -fx-border-color: WHITE; -fx-border-radius: 20;" text="Sign In" textAlignment="CENTER" textFill="WHITE" />
+            <Button layoutX="183.0" layoutY="175.0" mnemonicParsing="false" onAction="#btnExitAction" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #5934CF; -fx-border-color: WHITE; -fx-border-radius: 20;" text="Close" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <TextField layoutX="35.0" layoutY="83.0" prefHeight="27.0" prefWidth="250.0" promptText="Username" style="-fx-background-color: #5934CF; -fx-border-color: WHITE; -fx-border-radius: 20; -fx-background-insets: 0000; -fx-text-fill: WHITE;" />
+            <PasswordField layoutX="34.0" layoutY="131.0" prefHeight="25.0" prefWidth="250.0" promptText="Password" style="-fx-background-color: #5934CF; -fx-border-color: WHITE; -fx-border-radius: 20; -fx-background-insets: 0000; -fx-text-fill: WHITE;" />
+         </children></Pane>
+   </children>
+</AnchorPane>
